@@ -44,7 +44,6 @@
 - ✅ **PDP** – Partial Dependence for top 10 features using `sklearn.inspection`
 - ✅ **ICE** – Individual Conditional Expectation
 - ✅ **ALE** – Using `alibi.explainers.ALE` on top features
-- ✅ **LIME** – Local interpretability with `lime_tabular`
 - ✅ **SHAP** – Global & local explanations using `shap.Explainer` for `predict_proba`
 
 ### 📌 Findings:
@@ -65,8 +64,6 @@
 - ✅ **PDP** – for top 10 features
 - ✅ **ICE** – with `sklearn.inspection` for individual instances
 - ✅ **ALE** – with `alibi.explainers.ALE`
-- ✅ **LIME** – explanation for selected instance
-- ✅ **SHAP** – `TreeExplainer` for class-wise SHAP values and summary plots
 
 ### 📌 Findings:
 - RF performed slightly better on accuracy but had more complex decision boundaries.
